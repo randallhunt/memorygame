@@ -1,0 +1,42 @@
+.memory-game {
+  margin: 0 auto;
+
+  // @media screen and (min-width: 768px) {
+    width: 96%;
+  // }
+  @media screen and (min-width: 1024px) {
+    width: 1000px;
+  }
+  @media screen and (min-width: 1130px) {
+    width: 1110px;
+  }
+
+  .stats {
+    font: bold 1rem Verdana,Arial,sans-serif;
+    margin: 1em 1em .5em;
+
+    .matches {
+      float: right;
+    }
+
+    .guesses {
+    }
+  }
+
+  .congratulations {
+    background-image: url("../images/thumb.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    border: solid 5px #000;
+    border-radius: 1em;
+    font-size: 1.6rem;
+    margin: 2em auto;
+    padding: 200px 1em 1em;
+    text-align: center;
+    width: 50%;
+
+    h1, h2 {
+      margin: .2em;
+    }
+  }
+}
